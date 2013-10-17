@@ -292,6 +292,7 @@ module.exports =  {
                 title: "filter",
                 link: "documentation/angular/guide/dev_guide.templates.filters",
                 match: function (id, module, section, item, subItem) {
+                    console.log(id, id.match(MODULE_FILTER));
                     return id.match(MODULE_FILTER);
                 }
             },
